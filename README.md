@@ -1,4 +1,5 @@
-# ImperialMScAICheatSheet
+<<<<<<< HEAD
+# ImperialMScAICheatRepo
 A repo containing useful things for the MSc AI course at Imperial. Please feel free to add to this repo any links/code/books you have found useful while on the the course.
 
 ## Contents:
@@ -25,4 +26,3 @@ Please feel free to contribute to this cheat repo. If you would like to do so e.
 
 ## Questions & Issues
 Create an issue and someone will respond!
-
