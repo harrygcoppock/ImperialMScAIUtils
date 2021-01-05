@@ -1,5 +1,5 @@
 # ImperialMScAIUtils
-A repo containing useful things for the MSc AI course at Imperial. Please feel free to add to this repo any links/code/books you have found useful while on the the course.
+A repo containing useful things for the MSc AI course at Imperial. Please feel free to add to this repo any links/code/books you have found useful while on the course.
 
 ## Contents:
 **Cheats sheets** --> git, conda, pandas, Regex  
@@ -15,7 +15,7 @@ A repo containing useful things for the MSc AI course at Imperial. Please feel f
 * Up and coming AI conference deadlines [AI deadlines](https://aideadlin.es/?sub=ML,CV,NLP,RO,SP,DM)
 * Magical tool that allows you to screen shot any equation and turn it into latex code!!!! [Mathpix](https://mathpix.com/)
 ## Contributing
-Please feel free to contribute to this cheat repo. If you would like to do so e.g. adding a useful link to the README it would be good to stick to good git pratice:
+Please feel free to contribute to this repo. If you would like to do so e.g. adding a useful link to the README it would be good to stick to good git pratice:
 1. Fork this repo
 2. Create a branch
 3. Commit and push your changes
