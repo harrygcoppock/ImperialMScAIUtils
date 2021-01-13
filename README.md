@@ -14,7 +14,7 @@ A repo containing useful things for the MSc AI course at Imperial. Please feel f
 * List of top computer science conferences [Guide to research](https://www.guide2research.com/topconf/)
 * Up and coming AI conference deadlines [AI deadlines](https://aideadlin.es/?sub=ML,CV,NLP,RO,SP,DM)
 * Magical tool that allows you to screen shot any equation and turn it into latex code!!!! [Mathpix](https://mathpix.com/)
-* Repo to check GPU availability at Imperial thanks to @afspies [repo](https://github.com/afspies/ssh_gpu_checker)
+* Repo to check GPU availability at Imperial thanks to [@afspies](https://github.com/afspies) [repo](https://github.com/afspies/ssh_gpu_checker)
 ## Contributing
 Please feel free to contribute to this repo. If you would like to do so e.g. adding a useful link to the README it would be good to stick to good git pratice:
 1. Fork this repo
