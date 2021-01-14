@@ -13,7 +13,7 @@ A repo containing useful things for the MSc AI course at Imperial. Please feel f
 * Tools to keep on top of new research:
     1. [Semantic Scholar](https://www.semanticscholar.org/): Create customized research feeds (using AI), see paper summaries and much more!
     2. [Arxiv Sanity](http://www.arxiv-sanity.com/): Arxiv filtering based on favorited papers
-    3. [Aminer](https://www.aminer.cn/): Similar to semantic scholar; excellent feature is relevant literature tree for papers [example](https://mrt.aminer.cn/5e9979d9fc4ff8d805e696c0)
+    3. [Aminer](https://www.aminer.cn/): Similar to semantic scholar; excellent feature is relevant literature tree for papers ([see example](https://mrt.aminer.cn/5e9979d9fc4ff8d805e696c0))
 * List of top computer science conferences [Guide to research](https://www.guide2research.com/topconf/)
 * Up and coming AI conference deadlines [AI deadlines](https://aideadlin.es/?sub=ML,CV,NLP,RO,SP,DM)
 * Magical tool that allows you to screen shot any equation and turn it into latex code!!!! [Mathpix](https://mathpix.com/)
