@@ -2,7 +2,7 @@
 A repo containing useful things for the MSc AI course at Imperial. Please feel free to add to this repo any links/code/books you have found useful while on the course.
 
 ## Contents:
-**Cheats sheets** --> git, conda, pandas, Regex  
+**[Cheatsheets](cheatsheets/)** --> git, conda, pandas, regex and more!  
 **Books** --> Artificial Intelligence - A Modern Approach, Pattern Recognition And Machine Learning, Deep Learning, Dive into Deep Learning,  Mathematics for Machine Learning.  
 **gpu submission scripts** --> Gpucluster, High performance cluster  
 **PraticalImperialGuides** --> Intro to the HPC
