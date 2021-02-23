@@ -3,7 +3,7 @@ A repo containing useful things for the MSc AI course at Imperial. Please feel f
 
 ## Contents:
 **[Cheatsheets](cheatsheets/)** --> git, conda, pandas, regex and more!  
-**[Books](books/)** --> Artificial Intelligence - A Modern Approach, Pattern Recognition And Machine Learning, Deep Learning, Dive into Deep Learning,  Mathematics for Machine Learning.  
+**[Books](books/)** --> Artificial Intelligence - A Modern Approach, Graph Representation Learning, Pattern Recognition And Machine Learning, Deep Learning, Dive into Deep Learning,  Mathematics for Machine Learning.  
 **[HPC GPU Submission Scripts](gpu_sub_scripts/)** --> Gpucluster, High performance cluster  
 **[Pratical Imperial Guides](practical_icl_guides/)** --> Intro to the HPC
 
