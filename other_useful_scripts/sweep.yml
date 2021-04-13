@@ -1,0 +1,59 @@
+'''
+This is an example yaml file for conducting a sweep using wandb
+For more info check out https://docs.wandb.ai/sweeps. In the main script you need to 
+log at least one metric to wandb. I would also advise logging the configuration of the model.
+
+
+not the below config would run:
+
+python main.py --lr=0.00something --activation=somethingrelu etc
+
+
+to set up the wandb sweep run:
+
+wandb sweep sweep.yaml
+
+copy the sweep-id then ssh into any gpu you have available and run:
+
+wandb agent sweep-id
+
+note that if you are using any of the gpuclusters using slurm you should add an additional
+argument to the to the above command:
+
+wandb agent --count 1 sweep-id
+
+this then runs only one job. You can then queue up a number of jobs on the gpucluster. i.e. in the call_gpu.py
+file use the above command.
+
+cross validation note: some have asked about how to use a sweep with cross validaiton, as the sweep needs a single metric
+to optimise, maybe you should return the final mean metric score across all folds? If anyone has a better suggestion feel 
+free to add.
+'''
+
+
+
+program: main.py # program to run 
+command:
+  - ${interpreter} # this arguement ensures that 'python' preceeds the program command, in this case main.py
+  - ${program} # call ths program arg --> main.py
+  - ${args} # calls all the below parameter args, so lr, activation etc
+
+method: random # This can be a 'grid' search or 'bayes' search
+metric:
+  name: Test F1 # The name of the metric you log to wandb (with wandb.log)that you want to max/min
+  goal: maximize
+parameters: # now the hyper-parameters to vary. not these need to be arguments in the script e.g. argparse
+  lr:
+    distribution: log_uniform
+    min: 0.000001
+    max: 0.0001
+  activation:
+    distribution: categorical
+    values:
+    - relu
+    - elu
+    - selu
+    - prelu
+    - randomrelu
+  masking:
+    values: [False, True]
