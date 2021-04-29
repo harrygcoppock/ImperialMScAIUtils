@@ -62,6 +62,7 @@ with open(job_file, 'w') as fh:
 
     fh.writelines("#!/bin/bash\n")
     fh.writelines(f"#SBATCH --job-name=audio.job\n")
+    fh.writelines(f"#SBATCH --gres=gpu:1")
     fh.writelines(f"#SBATCH --output={output_path}{case_number}.out\n")
     fh.writelines(f"#SBATCH --error={output_path}{case_number}.err\n")
     fh.writelines("#SBATCH --mail-type=ALL\n")
