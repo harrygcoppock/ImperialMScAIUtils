@@ -22,7 +22,7 @@ A repo containing useful things for the MSc AI course at Imperial. Please feel f
 * Repo to check GPU availability at Imperial thanks to [@afspies](https://github.com/afspies) [repo](https://github.com/afspies/ssh_gpu_checker)
 
 ## Reading Groups
-* [Deep RL](https://sites.google.com/view/deep-rl-imperial/home): The group precent publications in reinforcement learning with a particular interest for deep RL. Previous sessions covered topics such as robot control, hierarchical RL, exploration, planning and multi-agent systems.
+* [Deep RL](https://sites.google.com/view/deep-rl-imperial/home): The group present publications in reinforcement learning with a particular interest for deep RL. Previous sessions covered topics such as robot control, hierarchical RL, exploration, planning and multi-agent systems.
 * [Machine Learning](https://imperialcollegelondon.github.io/csml-reading-group/): All machine learning related content with mathematical focus.
 * [Language and Multimodal AI Lab (LAMA)](https://lama.doc.ic.ac.uk/): NLP related papers discussed.
 
