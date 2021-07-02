@@ -38,3 +38,6 @@ Please feel free to contribute to this repo. If you would like to do so e.g. add
 
 ## Questions & Issues
 Create an issue and someone will respond!
+
+
+_If you find this repo useful, please consider giving it a ⭐_ 
