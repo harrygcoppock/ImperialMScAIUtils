@@ -20,6 +20,7 @@ A repo containing useful things for the MSc AI course at Imperial. Please feel f
 * Up and coming AI conference deadlines [AI deadlines](https://aideadlin.es/?sub=ML,CV,NLP,RO,SP,DM)
 * Magical tool that allows you to screen shot any equation and turn it into latex code!!!! [Mathpix](https://mathpix.com/)
 * Repo to check GPU availability at Imperial thanks to [@afspies](https://github.com/afspies) [repo](https://github.com/afspies/ssh_gpu_checker)
+* Tool to draw convolutional neural nets [link](http://alexlenail.me/NN-SVG/AlexNet.html)
 
 ## Reading Groups
 * [Deep RL](https://sites.google.com/view/deep-rl-imperial/home): The group present publications in reinforcement learning with a particular interest for deep RL. Previous sessions covered topics such as robot control, hierarchical RL, exploration, planning and multi-agent systems.
@@ -39,5 +40,5 @@ Please feel free to contribute to this repo. If you would like to do so e.g. add
 ## Questions & Issues
 Create an issue and someone will respond!
 
-
 _If you find this repo useful, please consider giving it a ⭐_ 
+
