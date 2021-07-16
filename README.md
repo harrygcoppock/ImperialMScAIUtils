@@ -5,8 +5,8 @@ A repo containing useful things for the MSc AI course at Imperial. Please feel f
 **[Cheatsheets](cheatsheets/)** --> git, conda, pandas, regex and more!  
 **[Books](books/)** --> Artificial Intelligence - A Modern Approach, Geometric Deep Learning, Graph Representation Learning, Pattern Recognition And Machine Learning, Deep Learning, Dive into Deep Learning,  Mathematics for Machine Learning.  
 **[HPC GPU Submission Scripts](gpu_sub_scripts/)** --> Gpucluster, High performance cluster  
-**[Pratical Imperial Guides](practical_icl_guides/)** --> Intro to the HPC
-**[Other Useful Scripts](other_useful_scripts)** --> wandb sweep example yaml file
+**[Pratical Imperial Guides](practical_icl_guides/)** --> Intro to the HPC  
+**[Other Useful Scripts](other_useful_scripts/)** --> wandb sweep example yaml file
 
 ## Useful links
 * [PapersWithCode](https://paperswithcode.com/): Benchmark comparisons of state-of-the-art algorithms, with code provided 
@@ -23,8 +23,8 @@ A repo containing useful things for the MSc AI course at Imperial. Please feel f
 * Tool to draw convolutional neural nets [link](http://alexlenail.me/NN-SVG/AlexNet.html)
 
 ## Reading Groups
-* [Deep RL](https://sites.google.com/view/deep-rl-imperial/home): The group precent publications in reinforcement learning with a particular interest for deep RL. Previous sessions covered topics such as robot control, hierarchical RL, exploration, planning and multi-agent systems.
-* [Machine Learning](https://imperialcollegelondon.github.io/csml-reading-group/): All machine learning related content with mathematical focus.
+* [Deep RL](https://sites.google.com/view/deep-rl-imperial/home): The group present publications in reinforcement learning with a particular interest for deep RL. Previous sessions covered topics such as robot control, hierarchical RL, exploration, planning and multi-agent systems.
+* [Machine Learning](https://imperialcollegelondon.github.io/csml-reading-group/): All machine learning related content with a mathematical focus.
 * [Language and Multimodal AI Lab (LAMA)](https://lama.doc.ic.ac.uk/): NLP related papers discussed.
 
 ## Contributing
@@ -40,4 +40,5 @@ Please feel free to contribute to this repo. If you would like to do so e.g. add
 ## Questions & Issues
 Create an issue and someone will respond!
 
-_If you find this repo useful, please consider giving it a ⭐_
+_If you find this repo useful, please consider giving it a ⭐_ 
+
