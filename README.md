@@ -3,7 +3,7 @@ A repo containing useful things for the MSc AI course at Imperial. Please feel f
 
 ## Contents:
 **[Cheatsheets](cheatsheets/)** --> git, conda, pandas, regex and more!  
-**[Books](books/)** --> Artificial Intelligence - A Modern Approach, Geometric Deep Learning, Graph Representation Learning, Pattern Recognition And Machine Learning, Deep Learning, Dive into Deep Learning,  Mathematics for Machine Learning.  
+**[Books](books/)** --> [Artificial Intelligence - A Modern Approach](https://drive.google.com/file/d/1EaUbq6oJ5GelNVPI84md2YNophO2ckxa/view?usp=sharing), [Bayesian Optimization](https://drive.google.com/file/d/1y7FzOvHZp42nXcrrqZ9v5o0bMsOF97HC/view?usp=sharing), [Geometric Deep Learning Grids, Groups, Graphs, Geodesics, and Gauges](https://drive.google.com/file/d/1BikzL9AK_Fbxs89a3U6xwrRZMpKxu-Xr/view?usp=sharing), [Graph Representation Learning](https://drive.google.com/file/d/1gXwObcHiFsRB6JEEztMfyIw4OjRDbyiY/view?usp=sharing), [Pattern Recognition And Machine Learning](https://drive.google.com/file/d/168UDdtnVeAYEHSHQk9_oZZwNODZH61Ih/view?usp=sharing), [Deep Learning](https://drive.google.com/file/d/1eBUXpdAbcuqzuRVFpt4D4AE5aNuSjzAc/view?usp=sharing), [Dive into Deep Learning](https://drive.google.com/file/d/1Qa_P8MFqCk9XAWYhk3X9jSo3Rg83VjMK/view?usp=sharing),  [Mathematics for Machine Learning](https://drive.google.com/file/d/1Kfo_-1l0lUavXj14Fn7Z_qsvn-qF5NrI/view?usp=sharing).  
 **[HPC GPU Submission Scripts](gpu_sub_scripts/)** --> Gpucluster, High performance cluster  
 **[Pratical Imperial Guides](practical_icl_guides/)** --> Intro to the HPC  
 **[Other Useful Scripts](other_useful_scripts/)** --> wandb sweep example yaml file
@@ -22,6 +22,8 @@ A repo containing useful things for the MSc AI course at Imperial. Please feel f
 * Repo to check GPU availability at Imperial thanks to [@afspies](https://github.com/afspies) [repo](https://github.com/afspies/ssh_gpu_checker)
 * Tool to draw convolutional neural nets [link](http://alexlenail.me/NN-SVG/AlexNet.html)
 * Useful tool to visualise and experiment with your regex expressions [link](https://extendsclass.com/regex-tester.html#python)
+* Repo detailing some advanced python concepts beyond the Imperial Python Programming course. Thanks to [@sirvan3tr
+](https://github.com/sirvan3tr) [repo](https://github.com/sirvan3tr/advanced-python) _work in progress_
 
 ## Reading Groups
 * [Deep RL](https://sites.google.com/view/deep-rl-imperial/home): The group present publications in reinforcement learning with a particular interest for deep RL. Previous sessions covered topics such as robot control, hierarchical RL, exploration, planning and multi-agent systems.
