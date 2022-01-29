@@ -1,5 +1,5 @@
 '''
-Script + instructions to define own custom datatset
+Script + instructions to define own custom dataset
 please see https://pytorch.org/tutorials/beginner/data_loading_tutorial.html
 for more details
 '''
@@ -49,3 +49,46 @@ class CustomDataset(Dataset):
 
     def __len__(self):
         return len(self.dataset_path)
+
+'''
+In the case of CW1 it is a slightly different situation that the training and validation sets have been provided to you as 
+a single dataset and it is down to you to create the validation set. By default this is just a random split. When one 
+wants to create a different transform for train and validation however one runs into complications. What I would adivse is 
+to do the following:
+'''
+
+def create_validation_set(path, n):
+    '''
+    Args:
+        path (str): path to the unzipped dataset
+        n (float): frac of set to make validation
+    Returns:
+        splits (csv): lists file paths with corresponding split, e.g. train/val
+
+        path              |    split
+        ----------------------------------
+        elephant/1234.png | train
+        tiger/1234.png    | validation
+        lion/1234.png     | train
+    '''
+    _, class_to_indx = find_classes(path)
+    instances = make_dataset(path, class_to_indx) # gen list of (path_to_instance, class)
+    # randomly sample n of the train set without replacement. Note this does not sample evenly from 
+    # test set.
+    df = pd.DataFrame(instances)
+    df['splits'] = df.randomsample 
+    return df
+
+
+def main(path):
+    '''
+    path (str): path to dataset directory
+    '''
+    df = create_validation_set
+    train_dataset = CustomDataset(df, path, split='train', transform=train_transform)
+    val_dataset = CustomDataset(df, path, split='val', transform=test_transform)
+    test_datset =CustomDataset(test_df, test_path, split='test', transform=test_transform)
+
+
+if __name__ == '__main__':
+    train_dataset = CustomDataset(split='train')
