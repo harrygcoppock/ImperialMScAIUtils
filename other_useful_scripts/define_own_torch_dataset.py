@@ -20,6 +20,13 @@ In most cases before one can begin training an ML model on a dataset you first n
 This processs often takes up a considerable amount of time and it is important that the sets are balanced and bias in the
 datasets have been addressed. It is key that the test set must be engineered in a manner to act a a truly unseen dataset.
 On creation of the train/val/test splits it is common practive to 
+In the case of CW1 it is a slightly different situation that the training and validation sets have been provided to you as 
+as single dataset and it is down to you to create the validation set. By default this is just a random split. When one 
+wants to create a different transform for train and validation however one runs into complications. Best practice would be
+to create a csv/txt detailing each sample's path and whether it is part of train/val/test. Then create a custom dataset with
+varying transforms/preprocessing.
+
+Below is an example of how you might do this.
 '''
 class CustomDataset(Dataset):
     
@@ -50,12 +57,6 @@ class CustomDataset(Dataset):
     def __len__(self):
         return len(self.dataset_path)
 
-'''
-In the case of CW1 it is a slightly different situation that the training and validation sets have been provided to you as 
-a single dataset and it is down to you to create the validation set. By default this is just a random split. When one 
-wants to create a different transform for train and validation however one runs into complications. What I would adivse is 
-to do the following:
-'''
 
 def create_validation_set(path, n):
     '''
@@ -75,8 +76,9 @@ def create_validation_set(path, n):
     instances = make_dataset(path, class_to_indx) # gen list of (path_to_instance, class)
     # randomly sample n of the train set without replacement. Note this does not sample evenly from 
     # test set.
-    df = pd.DataFrame(instances)
-    df['splits'] = df.randomsample 
+    df = pd.DataFrame(instances, columns=['path', 'split'])
+    val = df.sample(frac=n, random_state=42)
+    df['split'] = df[df in ]
     return df
 
 
