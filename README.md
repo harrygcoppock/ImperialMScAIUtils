@@ -24,7 +24,8 @@ A repo containing useful things for the MSc AI course at Imperial. Please feel f
 * Useful tool to visualise and experiment with your regex expressions [link](https://extendsclass.com/regex-tester.html#python)
 * Repo detailing some advanced python concepts beyond the Imperial Python Programming course. Thanks to [@sirvan3tr
 ](https://github.com/sirvan3tr) [repo](https://github.com/sirvan3tr/advanced-python).  _work in progress_
-* Nice step by step guide by [@afspies](https://github.com/afspies) for remote [DoC environment setup](https://hackmd.io/@afspies/Bkd7Zq60K#). 
+* Nice step by step guide by [@afspies](https://github.com/afspies) for remote [DoC environment setup](https://hackmd.io/@afspies/Bkd7Zq60K#).
+* Nice collection of need to know papers in NLP, vision, speech, core ML and RL [link](https://aman.ai/papers/) 
 
 ## Reading Groups
 * [Deep RL](https://sites.google.com/view/deep-rl-imperial/home): The group present publications in reinforcement learning with a particular interest for deep RL. Previous sessions covered topics such as robot control, hierarchical RL, exploration, planning and multi-agent systems.
